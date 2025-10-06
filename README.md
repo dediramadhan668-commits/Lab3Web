@@ -274,7 +274,8 @@ Hasilnya seperti gambar di bawah ini.
 
 Kalian juga bisa improve CSS nya agar terlihat seperti yang kalian inginkan, contoh seperti di bawah ini:
 <img width="1362" height="698" alt="image" src="https://github.com/user-attachments/assets/0df2fb09-95d8-4592-b6e8-c63ef29fae3a" />
-Pertanyaan dan Tugas
+
+Pertanyaan dan Tugas<br>
 1.Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
 
 
