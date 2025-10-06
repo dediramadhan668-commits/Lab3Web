@@ -276,7 +276,20 @@ Kalian juga bisa improve CSS nya agar terlihat seperti yang kalian inginkan, con
 <img width="1362" height="698" alt="image" src="https://github.com/user-attachments/assets/0df2fb09-95d8-4592-b6e8-c63ef29fae3a" />
 
 Pertanyaan dan Tugas<br>
-1.Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
+1.Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.<br>
+Jawaban:<br>
+a. Dropdown Menu
+Dropdown menu digunakan untuk memilih satu opsi dari beberapa pilihan. Dibuat dengan tag <select> tanpa atribut multiple.
+Contoh:<br>
+```
+<label for="kota">Pilih Kota:</label>
+<select id="kota" name="kota">
+  <option value="jakarta">Jakarta</option>
+  <option value="bandung">Bandung</option>
+  <option value="surabaya">Surabaya</option>
+  <option value="medan">Medan</option>
+</select>
+```
 
 
 
