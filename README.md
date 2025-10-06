@@ -281,7 +281,7 @@ Kalian juga bisa improve CSS nya agar terlihat seperti yang kalian inginkan, con
 
 ### Jawaban:
 
-a. **Dropdown Menu**  
+**Dropdown Menu**  
 Dropdown menu digunakan untuk memilih satu opsi dari beberapa pilihan. Dibuat dengan tag `<select>` tanpa atribut `multiple`.  
 
 ```html
@@ -294,7 +294,7 @@ Dropdown menu digunakan untuk memilih satu opsi dari beberapa pilihan. Dibuat de
 </select>
 ```
 
-b. **Listbox dengan Multiple Selection**  
+**Listbox dengan Multiple Selection**  
 Listbox digunakan untuk menampilkan beberapa pilihan sekaligus. Dengan menambahkan atribut `multiple`, user bisa memilih lebih dari satu opsi.  
 
 ```html
@@ -306,6 +306,10 @@ Listbox digunakan untuk menampilkan beberapa pilihan sekaligus. Dengan menambahk
   <option value="traveling">Traveling</option>
 </select>
 ```
+
+**Jika disatukan dalam sebuah form sederhana:**
+<img width="1362" height="683" alt="image" src="https://github.com/user-attachments/assets/08366c8e-8fd1-4e58-b6eb-b971e0cc0040" />
+
 
 
 
