@@ -264,12 +264,35 @@ Tambahkan kode berikut di dalam tag <head> sebelum penutup </head>:
 ```
 Dengan kode di atas:
 Label akan memiliki lebar tetap sehingga form lebih sejajar.
-Input teks dan textarea diberi garis tepi berwarna hijau tua (#197a43).
+Input teks dan textarea diberi garis tepi berwarna hijau tua.
 Tombol submit tampil dengan latar hijau, teks putih, serta gaya tegas karena font dibuat tebal.
 Hasil akhirnya form jadi lebih enak dilihat dan lebih profesional.
 Hasilnya seperti gambar di bawah ini.
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/798b62a9-e98d-4521-a302-5469cee695fe" />
+
+
+Kalian juga bisa improve CSS nya agar terlihat seperti yang kalian inginkan, contoh seperti di bawah ini:
+<img width="1362" height="698" alt="image" src="https://github.com/user-attachments/assets/0df2fb09-95d8-4592-b6e8-c63ef29fae3a" />
+
+<h2><b>Pertanyaan dan Tugas</b></h2>
+1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
+
+Jawaban:
+a. Dropdown Menu
+Dropdown menu digunakan untuk memilih satu opsi dari beberapa pilihan. Dibuat dengan tag <select> tanpa atribut multiple.
+Contoh:
+
+
+
+<label for="kota">Pilih Kota:</label>
+<select id="kota" name="kota">
+  <option value="jakarta">Jakarta</option>
+  <option value="bandung">Bandung</option>
+  <option value="surabaya">Surabaya</option>
+  <option value="medan">Medan</option>
+</select>
+
 
 
 
