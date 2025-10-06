@@ -4,7 +4,7 @@ Langkah pertama yang perlu kita lakukan adalah membuat sebuah dokumen HTML baru 
 Untuk membuat file ini, kamu dapat memanfaatkan berbagai editor teks sesuai preferensi, misalnya Visual Studio Code, Sublime Text, atau bahkan aplikasi sederhana seperti Notepad. Setelah file berhasil dibuat, simpan dengan ekstensi .html agar sistem mengenali file tersebut sebagai dokumen HTML. File ini nantinya berfungsi sebagai media latihan untuk memahami dan menerapkan penggunaan list dalam HTML.
 
 Tahap persiapan ini menjadi dasar sebelum masuk ke langkah berikutnya, yaitu menuliskan struktur utama dokumen HTML di dalam file tersebut.
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
