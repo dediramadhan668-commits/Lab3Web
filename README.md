@@ -310,15 +310,10 @@ Contoh:
   <option value="travel">Travel</option>
 </select>
 ```
-
 Lalu kita coba masukan atribut atribut di atas ke dalam sebuah form sederhana yaitu sebagai berikut:
-
-
 <img width="1362" height="674" alt="image" src="https://github.com/user-attachments/assets/60e00bde-b1fc-490d-b959-1fd50cc94fa0" />
 
-
 Jika di improve lagi bisa seperti di bawah ini:
-
 
 <img width="1366" height="654" alt="image" src="https://github.com/user-attachments/assets/4800c7f4-81db-4b32-8883-5c736f1e0107" />
 
