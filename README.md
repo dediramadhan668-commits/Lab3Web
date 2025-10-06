@@ -1,3 +1,8 @@
+# Lab3Web
+# Nama: Dedi Ramadhan
+# Kelas: TI.24.A1
+# NIM: 312410171
+<b>Pratikum CSS dasar Pertemuan ke Empat</b>
 <h1><b>Langkah pertama:</b></h1>
 
 Langkah pertama yang perlu kita lakukan adalah membuat sebuah dokumen HTML baru dengan nama lab3_list.html. Simpan file tersebut di dalam folder yang sesuai dengan struktur proyek atau direktori praktikum yang sedang digunakan, sehingga proses pengelolaan dan akses file akan lebih mudah dilakukan.
