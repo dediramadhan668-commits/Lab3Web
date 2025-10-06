@@ -277,9 +277,9 @@ Kalian juga bisa improve CSS nya agar terlihat seperti yang kalian inginkan, con
 
 Pertanyaan dan Tugas
 1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
-
 Jawaban:
-a. Dropdown Menu
+
+Dropdown Menu
 Dropdown menu digunakan untuk memilih satu opsi dari beberapa pilihan. Dibuat dengan tag <select> tanpa atribut multiple.
 Contoh:
 
@@ -293,7 +293,8 @@ Contoh:
 </select>
 ```
 
-b. Listbox dengan Multiple Selection
+Listbox dengan Multiple Selection
+
 Listbox digunakan untuk menampilkan beberapa pilihan sekaligus, dan jika ingin bisa memilih lebih dari satu, tambahkan atribut multiple.
 Contoh:
 ```
