@@ -283,30 +283,12 @@ Dropdown Menu
 Dropdown menu digunakan untuk memilih satu opsi dari beberapa pilihan. Dibuat dengan tag <select> tanpa atribut multiple.
 Contoh:
 
-```
-<label for="kota">Pilih Kota:</label>
-<select id="kota" name="kota">
-  <option value="jakarta">Jakarta</option>
-  <option value="bandung">Bandung</option>
-  <option value="surabaya">Surabaya</option>
-  <option value="medan">Medan</option>
-</select>
-```
 
 Listbox dengan Multiple Selection
 
 Listbox digunakan untuk menampilkan beberapa pilihan sekaligus, dan jika ingin bisa memilih lebih dari satu, tambahkan atribut multiple.
 Contoh:
-```
-<label for="hobi">Pilih Hobi Anda:</label>
-<select id="hobi" name="hobi[]" multiple size="4">
-  <option value="membaca">Membaca</option>
-  <option value="olahraga">Olahraga</option>
-  <option value="musik">Musik</option>
-  <option value="game">Game</option>
-  <option value="travel">Travel</option>
-</select>
-```
+
 
 
 
