@@ -275,13 +275,16 @@ Hasilnya seperti gambar di bawah ini.
 Kalian juga bisa improve CSS nya agar terlihat seperti yang kalian inginkan, contoh seperti di bawah ini:
 <img width="1362" height="698" alt="image" src="https://github.com/user-attachments/assets/0df2fb09-95d8-4592-b6e8-c63ef29fae3a" />
 
-Pertanyaan dan Tugas<br>
-1.Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.<br>
-Jawaban:<br>
-a. Dropdown Menu
-Dropdown menu digunakan untuk memilih satu opsi dari beberapa pilihan. Dibuat dengan tag <select> tanpa atribut multiple.
-Contoh:<br>
-```
+## Pertanyaan dan Tugas
+
+**1. Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.**
+
+### Jawaban:
+
+a. **Dropdown Menu**  
+Dropdown menu digunakan untuk memilih satu opsi dari beberapa pilihan. Dibuat dengan tag `<select>` tanpa atribut `multiple`.  
+
+```html
 <label for="kota">Pilih Kota:</label>
 <select id="kota" name="kota">
   <option value="jakarta">Jakarta</option>
@@ -291,6 +294,18 @@ Contoh:<br>
 </select>
 ```
 
+b. **Listbox dengan Multiple Selection**  
+Listbox digunakan untuk menampilkan beberapa pilihan sekaligus. Dengan menambahkan atribut `multiple`, user bisa memilih lebih dari satu opsi.  
+
+```html
+<label for="hobi">Pilih Hobi:</label>
+<select id="hobi" name="hobi[]" multiple size="4">
+  <option value="membaca">Membaca</option>
+  <option value="olahraga">Olahraga</option>
+  <option value="musik">Musik</option>
+  <option value="traveling">Traveling</option>
+</select>
+```
 
 
 
