@@ -1,7 +1,25 @@
-Langkah Pertama :
+#Langkah Pertama :
 Langkah pertama yang perlu kita lakukan adalah membuat sebuah dokumen HTML baru dengan nama lab3_list.html. Simpan file tersebut di dalam folder yang sesuai dengan struktur proyek atau direktori praktikum yang sedang digunakan, sehingga proses pengelolaan dan akses file akan lebih mudah dilakukan.
 Untuk membuat file ini, kamu dapat memanfaatkan berbagai editor teks sesuai preferensi, misalnya Visual Studio Code, Sublime Text, atau bahkan aplikasi sederhana seperti Notepad. Setelah file berhasil dibuat, simpan dengan ekstensi .html agar sistem mengenali file tersebut sebagai dokumen HTML. File ini nantinya berfungsi sebagai media latihan untuk memahami dan menerapkan penggunaan list dalam HTML.
-Tahap persiapan ini menjadi dasar sebelum masuk ke langkah berikutnya, yaitu menuliskan struktur utama dokumen HTML di dalam file tersebut.\
+Tahap persiapan ini menjadi dasar sebelum masuk ke langkah berikutnya, yaitu menuliskan struktur utama dokumen HTML di dalam file tersebut.
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Lanjutan</title>
+</head>
+<body>
+<header>
+<h1>Membuat List</h1>
+</header>
+</body>
+</html>
+```
+
+
+
 Langkah Kedua :
 Membuat Ordered List
 Setelah tahap persiapan selesai, langkah selanjutnya adalah menambahkan kode untuk membuat Ordered List. Ordered List atau daftar berurutan digunakan ketika elemen-elemen yang ditampilkan memiliki urutan yang jelas, biasanya ditandai dengan angka secara otomatis.
