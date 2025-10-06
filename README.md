@@ -27,7 +27,7 @@ Membuat Ordered List
 Setelah tahap persiapan selesai, langkah selanjutnya adalah menambahkan kode untuk membuat Ordered List. Ordered List atau daftar berurutan digunakan ketika elemen-elemen yang ditampilkan memiliki urutan yang jelas, biasanya ditandai dengan angka secara otomatis.
 
 Masukkan potongan kode berikut ke dalam file lab3_list.html setelah struktur dasar HTML selesai dibuat:
-```
+```html
 <section id="order-list">
   <h2>Ordered List</h2>
   <ol>
@@ -47,7 +47,7 @@ Membuat Unorderd List
 Setelah mendefinisikan Ordered List, tahap berikutnya adalah menambahkan Unordered List. Berbeda dengan Ordered List yang menggunakan penomoran, Unordered List menampilkan elemen dalam bentuk simbol atau bullet. Jenis bullet juga dapat diatur, misalnya lingkaran, kotak, atau default bulat kecil.
 
 Tambahkan kode berikut setelah deklarasi Ordered List:
-```
+```html
 <section id="unorder-list">
   <h2>Unordered List</h2>
   <ul type="square">
@@ -67,7 +67,7 @@ Membuat Description List
 Setelah menambahkan Unordered List, lanjutkan dengan membuat Description List. Jenis list ini digunakan untuk menampilkan pasangan istilah dan penjelasannya. Biasanya dipakai ketika ada istilah utama (ditulis dengan tag <dt>) yang diikuti oleh satu atau beberapa deskripsi (ditulis dengan tag <dd>).
 
 Tambahkan potongan kode berikut setelah deklarasi Unordered List:
-```
+```html
 <section id="unorder-list">
   <h2>Description List</h2>
   <dl>
@@ -91,7 +91,7 @@ Akan menambahkan  Description List seperti di gambar ini.
 Membuat Table
 Selanjutnya buat file HTML baru dengan nama lab3_tabel.html. File ini akan digunakan untuk latihan membuat tabel dalam HTML. Mulailah dengan menuliskan struktur dasar dokumen HTML seperti berikut:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -108,7 +108,7 @@ Selanjutnya buat file HTML baru dengan nama lab3_tabel.html. File ini akan digun
 ```
 Setelah struktur dasar selesai, tambahkan kode tabel di dalam bagian <body> setelah tag <header>. Kode berikut akan membuat tabel dengan border, jarak antar sel, dan beberapa data fakultas serta program studi:
 
-```
+```html
 <table border="1" cellpadding="4" cellspacing="0">
   <thead>
     <tr>
@@ -148,7 +148,7 @@ rowspan berfungsi untuk menggabungkan sel secara vertikal (baris).
 colspan digunakan untuk menggabungkan sel secara horizontal (kolom).
 
 Contoh berikut menunjukkan penggunaan rowspan untuk menggabungkan kolom Fakultas menjadi satu sel, karena semua baris memiliki nilai yang sama, yaitu "Teknik":
-```
+```html
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
     <tr>
@@ -184,7 +184,7 @@ Pada kode di atas, atribut rowspan="3" pada sel Fakultas membuat teks "Teknik" m
 Membuat Form
 Buat terlebih dahulu file HTML baru dengan nama lab3_form.html. Tulis struktur dasar HTML seperti berikut:
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -201,7 +201,7 @@ Buat terlebih dahulu file HTML baru dengan nama lab3_form.html. Tulis struktur d
 ```
 Setelah itu, tambahkan kode form di dalam elemen <body> setelah bagian <header>. Form ini berfungsi untuk menginput data pelanggan sederhana:
 
-```
+```html
 <form action="proses.php" method="post">
   <fieldset>
     <legend>Data Pelanggan</legend>
@@ -242,7 +242,7 @@ Agar form yang sudah dibuat terlihat lebih menarik dan rapi, kita bisa menambahk
 
 Tambahkan kode berikut di dalam tag <head> sebelum penutup </head>:
 
-```
+```html
 <style>
   form p > label {
     display: inline-block;
