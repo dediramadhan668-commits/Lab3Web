@@ -283,7 +283,7 @@ a. Dropdown Menu
 Dropdown menu digunakan untuk memilih satu opsi dari beberapa pilihan. Dibuat dengan tag <select> tanpa atribut multiple.
 Contoh:
 
-````
+```
 
 <label for="kota">Pilih Kota:</label>
 <select id="kota" name="kota">
@@ -293,14 +293,14 @@ Contoh:
   <option value="medan">Medan</option>
 </select>
 
-````
+```
 
 b. Listbox dengan Multiple Selection
 Listbox digunakan untuk menampilkan beberapa pilihan sekaligus, dan jika ingin bisa memilih lebih dari satu, tambahkan atribut multiple.
 Contoh:
 
 
-````
+```
 <label for="hobi">Pilih Hobi Anda:</label>
 <select id="hobi" name="hobi[]" multiple size="4">
   <option value="membaca">Membaca</option>
@@ -309,7 +309,7 @@ Contoh:
   <option value="game">Game</option>
   <option value="travel">Travel</option>
 </select>
-````
+```
 
 Lalu kita coba masukan atribut atribut di atas ke dalam sebuah form sederhana yaitu sebagai berikut:
 
